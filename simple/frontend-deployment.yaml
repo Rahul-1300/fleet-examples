@@ -1,13 +1,13 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend
+  name: abc
 spec:
   selector:
     matchLabels:
       app: guestbook
       tier: frontend
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
